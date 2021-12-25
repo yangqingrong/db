@@ -1,0 +1,13 @@
+{
+    "name": "yangqing-rong/db",
+    "description": "php8 ORM",
+    "type": "library",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "wudimei",
+            "email": "1@wudimei.com"
+        }
+    ],
+    "require": {}
+}
