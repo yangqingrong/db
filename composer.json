@@ -1,5 +1,5 @@
 {
-    "name": "yangqing-rong/db",
+    "name": "yangqingrong/db",
     "description": "php8 ORM",
     "type": "library",
     "license": "MIT",
@@ -9,5 +9,9 @@
             "email": "1@wudimei.com"
         }
     ],
-    "require": {}
+    "require": {},
+   
+    "autoload": {
+        "psr-0": {"DB": "src/DB"}
+    }
 }
