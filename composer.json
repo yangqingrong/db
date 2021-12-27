@@ -12,6 +12,6 @@
     "require": {},
    
     "autoload": {
-        "psr-0": {"DB\\": "src/DB/"}
+        "psr-4": {"DB\\": "src/DB/"}
     }
 }
