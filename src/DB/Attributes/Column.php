@@ -3,12 +3,8 @@
  
 
 namespace DB\Attributes;
-
-/**
- * Description of Column
- *
- * @author YangQing-rong
- */
+use \Attribute;
+ 
 #[Attribute]
 class Column {
     public function __construct(

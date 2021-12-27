@@ -3,21 +3,26 @@
  
 
 namespace DB\Attributes;
-
-/**
- * Description of Table
- *
- * @author YangQing-rong
- */
+use \Attribute;
+ 
 #[Attribute]
 class Table {
     public function __construct(
-            protected string $name
+            //table name
+            public ?string $name = null,
+             public ?string $alias = null,
+             public ?string $connection = null 
+          
     ) {
         
     }
     
-    public function name( ) {
-        return $this->name;
+    //class name
+    public function getName(){
+        return self::class;
+    }
+     public function getArguments()  {
+       return   get_object_vars( $this);
+         
     }
 }

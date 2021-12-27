@@ -1,12 +1,8 @@
 <?php
 
 namespace DB\Attributes;
-
-/**
- * Description of UniqueKey
- *
- * @author YangQing-rong
- */
+use \Attribute;
+ 
 
 #[Attribute]
 class UniqueKey {

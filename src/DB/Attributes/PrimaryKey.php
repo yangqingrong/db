@@ -2,12 +2,8 @@
  
 
 namespace DB\Attributes;
-
-/**
- *  PrimaryKey of Table
- *
- * @author YangQing-rong
- */
+use \Attribute;
+ 
 #[Attribute]
 class PrimaryKey {
    
